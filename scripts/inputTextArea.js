@@ -22,6 +22,8 @@ function inputTextAreaInit() {
 			// put caret at right position again
 			this.selectionStart =
 				this.selectionEnd = start + 1;
+			
+			inputToOutput();
 		}
 	});
 
